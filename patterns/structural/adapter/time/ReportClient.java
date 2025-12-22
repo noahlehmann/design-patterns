@@ -1,9 +1,9 @@
 package structural.adapter.time;
 
-public class Client {
+public class ReportClient {
     private final ITimeProvider timeProvider;
 
-    public Client(ITimeProvider timeProvider) {
+    public ReportClient(ITimeProvider timeProvider) {
         this.timeProvider = timeProvider;
     }
 
