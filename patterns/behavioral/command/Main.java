@@ -9,7 +9,7 @@ public class Main {
         CommandManager manager = new CommandManager();
 
         manager.execute(new IncrementCommand(counter)); // 1
-        manager.execute(new IncrementCommand(counter)); // 1
+        manager.execute(new IncrementCommand(counter)); // 2
 
         manager.undo();
 
